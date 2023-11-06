@@ -16,8 +16,9 @@
     }
   };
 
-  const result1 = kgToGm(1000) as number;
-  const result2 = kgToGm("1000") as number;
+  const result1 = kgToGm(1) as number;
+  const result2 = kgToGm("1") as string;
+  console.log(result1);
 
   type CustomError = {
     message: string;
